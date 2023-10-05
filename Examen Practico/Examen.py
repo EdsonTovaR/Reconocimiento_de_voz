@@ -124,3 +124,6 @@ def modificar_voz():
 def eliminar_voz():
     return
 
+if __name__=='__main__':
+    inicio()
+
