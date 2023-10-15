@@ -67,7 +67,6 @@ def nueva_voz():
 
 
 
-
 def mostrar_voz():
     datos=mostrar()
     header=['NOMBRE','GENERO','VOZ']
