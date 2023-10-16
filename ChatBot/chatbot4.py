@@ -104,7 +104,7 @@ def main():
 
 
     # Cargar una imagen de fondo
-    bg_image = tk.PhotoImage(file="Tareas\iondo.png")  
+    bg_image = tk.PhotoImage(file="ChatBot\iondo.png")  
     bg_label = tk.Label(root, image=bg_image)
     bg_label.place(relwidth=1, relheight=1)
     bg_label.place(x=200, y=0)
