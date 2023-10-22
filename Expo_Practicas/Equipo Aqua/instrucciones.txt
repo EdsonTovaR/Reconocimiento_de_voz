@@ -1,0 +1,11 @@
+Ejecutar el archivo train.py con el comando:
+
+python train.py
+
+D3ebera de entrenar y de almacenar el modelo de red neuronal
+
+Dspues ejecutar el archivo prueba.py con el comando:
+
+python prueba.py
+
+Debera de hacer una prueba del modelo previamente entrenado.
