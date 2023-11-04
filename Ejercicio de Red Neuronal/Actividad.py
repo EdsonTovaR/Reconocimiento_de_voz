@@ -27,6 +27,7 @@ print (model.predict(training_data).round())
 import numpy as np
 from keras.models import Sequential
 from keras.layers.core import Dense
+from keras.models import model_from_json
 
 #cargamos las 4 combinaciones de las compuertas XOR
 training_data = np.array([[0,0],[0,1],[1,0],[1,1]], "float32")
