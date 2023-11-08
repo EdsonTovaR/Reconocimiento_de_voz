@@ -25,6 +25,12 @@ def reconocer_voz_y_guardar():
     except sr.RequestError as e:
         print("Error al conectarse al servicio de reconocimiento de voz: {0}".format(e))
 
+    except sr.UnknownValueError:
+        print("No se pudo entender lo que dijiste")
+    except sr.RequestError as e:
+        print("Error al conectarse al servicio de reconocimiento de voz: {0}".format(e))
+
 
 if __name__ == "__main__":
-    reconocer_voz_y_guardar()
+    while True:
+        reconocer_voz_y_guardar()
